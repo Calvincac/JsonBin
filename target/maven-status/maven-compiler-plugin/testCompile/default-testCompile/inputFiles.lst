@@ -1,0 +1,14 @@
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/data/DataBuilder.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/client/BinClient.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/client/BaseClient.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/asserters/BinAsserters.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/resources/BaseTest.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/configuration/Configuration.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/data/BinTestData.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/configuration/ConfigurationManager.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/tests/UpdateBinTests.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/tests/DeleteBinTests.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/tests/ReadBinTests.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/resources/Utils.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/resources/BinResources.java
+/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/tests/AddBinsTests.java

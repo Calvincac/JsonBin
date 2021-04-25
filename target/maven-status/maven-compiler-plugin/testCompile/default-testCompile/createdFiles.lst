@@ -1,0 +1,14 @@
+data/DataBuilder.class
+configuration/Configuration.class
+resources/BinResources.class
+configuration/ConfigurationManager.class
+data/BinTestData.class
+tests/AddBinsTests.class
+tests/ReadBinTests.class
+resources/Utils.class
+client/BinClient.class
+resources/BaseTest.class
+client/BaseClient.class
+tests/UpdateBinTests.class
+asserters/BinAsserters.class
+tests/DeleteBinTests.class

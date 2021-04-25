@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-25T10:30:11 CEST" name="Bin Regression" finished-at="2021-04-25T10:30:28 CEST" duration-ms="17298">
+    <groups>
+    </groups>
+    <test started-at="2021-04-25T10:30:11 CEST" name="Bin Tests" finished-at="2021-04-25T10:30:28 CEST" duration-ms="17298">
+      <class name="tests.ReadBinTests">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.ReadBinTests@429bffaa]" started-at="2021-04-25T10:30:24 CEST" name="beforeMethod" finished-at="2021-04-25T10:30:24 CEST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="canReadABinById()[pri:0, instance:tests.ReadBinTests@429bffaa]" started-at="2021-04-25T10:30:24 CEST" name="canReadABinById" finished-at="2021-04-25T10:30:25 CEST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canReadABinById -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.ReadBinTests@429bffaa]" started-at="2021-04-25T10:30:25 CEST" name="beforeMethod" finished-at="2021-04-25T10:30:25 CEST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cannotRetrieveBinByNullId()[pri:0, instance:tests.ReadBinTests@429bffaa]" started-at="2021-04-25T10:30:25 CEST" name="cannotRetrieveBinByNullId" finished-at="2021-04-25T10:30:26 CEST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotRetrieveBinByNullId -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.ReadBinTests@429bffaa]" started-at="2021-04-25T10:30:26 CEST" name="beforeMethod" finished-at="2021-04-25T10:30:27 CEST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cannotRetrieveBinByWrongId()[pri:0, instance:tests.ReadBinTests@429bffaa]" started-at="2021-04-25T10:30:27 CEST" name="cannotRetrieveBinByWrongId" finished-at="2021-04-25T10:30:27 CEST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotRetrieveBinByWrongId -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.ReadBinTests@429bffaa]" started-at="2021-04-25T10:30:27 CEST" name="beforeMethod" finished-at="2021-04-25T10:30:28 CEST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cannotRetrieveBinNoId()[pri:0, instance:tests.ReadBinTests@429bffaa]" started-at="2021-04-25T10:30:28 CEST" name="cannotRetrieveBinNoId" finished-at="2021-04-25T10:30:28 CEST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotRetrieveBinNoId -->
+      </class> <!-- tests.ReadBinTests -->
+      <class name="tests.DeleteBinTests">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DeleteBinTests@4a7f959b]" started-at="2021-04-25T10:30:16 CEST" name="beforeMethod" finished-at="2021-04-25T10:30:17 CEST" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="canDeleteABinById()[pri:0, instance:tests.DeleteBinTests@4a7f959b]" started-at="2021-04-25T10:30:17 CEST" name="canDeleteABinById" finished-at="2021-04-25T10:30:18 CEST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canDeleteABinById -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DeleteBinTests@4a7f959b]" started-at="2021-04-25T10:30:18 CEST" name="beforeMethod" finished-at="2021-04-25T10:30:19 CEST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cannotDeleteABinByWrongId()[pri:0, instance:tests.DeleteBinTests@4a7f959b]" started-at="2021-04-25T10:30:19 CEST" name="cannotDeleteABinByWrongId" finished-at="2021-04-25T10:30:19 CEST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotDeleteABinByWrongId -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DeleteBinTests@4a7f959b]" started-at="2021-04-25T10:30:19 CEST" name="beforeMethod" finished-at="2021-04-25T10:30:21 CEST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cannotDeleteBinWithNullId()[pri:0, instance:tests.DeleteBinTests@4a7f959b]" started-at="2021-04-25T10:30:21 CEST" name="cannotDeleteBinWithNullId" finished-at="2021-04-25T10:30:21 CEST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotDeleteBinWithNullId -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DeleteBinTests@4a7f959b]" started-at="2021-04-25T10:30:21 CEST" name="beforeMethod" finished-at="2021-04-25T10:30:23 CEST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cannotDeleteBinWithoutId()[pri:0, instance:tests.DeleteBinTests@4a7f959b]" started-at="2021-04-25T10:30:23 CEST" name="cannotDeleteBinWithoutId" finished-at="2021-04-25T10:30:24 CEST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotDeleteBinWithoutId -->
+      </class> <!-- tests.DeleteBinTests -->
+      <class name="tests.AddBinsTests">
+        <test-method signature="canCreateABinWith1000Characters()[pri:0, instance:tests.AddBinsTests@3e84448c]" started-at="2021-04-25T10:30:11 CEST" name="canCreateABinWith1000Characters" finished-at="2021-04-25T10:30:13 CEST" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canCreateABinWith1000Characters -->
+        <test-method signature="canCreateABinWithEmptyValue()[pri:0, instance:tests.AddBinsTests@3e84448c]" started-at="2021-04-25T10:30:13 CEST" name="canCreateABinWithEmptyValue" finished-at="2021-04-25T10:30:14 CEST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canCreateABinWithEmptyValue -->
+        <test-method signature="canCreateABinWithNullValue()[pri:0, instance:tests.AddBinsTests@3e84448c]" started-at="2021-04-25T10:30:14 CEST" name="canCreateABinWithNullValue" finished-at="2021-04-25T10:30:14 CEST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canCreateABinWithNullValue -->
+        <test-method signature="canCreateABinWithValidValue()[pri:0, instance:tests.AddBinsTests@3e84448c]" started-at="2021-04-25T10:30:14 CEST" name="canCreateABinWithValidValue" finished-at="2021-04-25T10:30:15 CEST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canCreateABinWithValidValue -->
+        <test-method signature="cannotCreateBinWithBlankBody()[pri:0, instance:tests.AddBinsTests@3e84448c]" started-at="2021-04-25T10:30:15 CEST" name="cannotCreateBinWithBlankBody" finished-at="2021-04-25T10:30:16 CEST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotCreateBinWithBlankBody -->
+      </class> <!-- tests.AddBinsTests -->
+    </test> <!-- Bin Tests -->
+  </suite> <!-- Bin Regression -->
+</testng-results>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bin Regression" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
+    <test name="Bin Tests" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="tests.AddBinsTests"></class>
+            <class name="tests.DeleteBinTests"></class>
+            <class name="tests.ReadBinTests"></class>
+            <class name="tests.UpdateBinTests"></class>
+        </classes>
+    </test>
+</suite>

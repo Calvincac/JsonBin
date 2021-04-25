@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Bin_Regression" class="navigator-link">
+              <span class="suite-name border-passed">Bin Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Bin_Regression" class="navigator-link ">
+                    <span>binRegressionTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Bin_Regression" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Bin_Regression" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Bin_Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Bin_Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Bin_Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Bin_Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Bin_Regression" class="hide-methods passed suite-Bin_Regression"> (hide)</a> <!-- hide-methods passed suite-Bin_Regression -->
+                      <a href="#" panel-name="suite-Bin_Regression" class="show-methods passed suite-Bin_Regression"> (show)</a> <!-- show-methods passed suite-Bin_Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-Bin_Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.AddBinsTests" class="method navigator-link" hash-for-method="canCreateABinWith1000Characters">canCreateABinWith1000Characters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.AddBinsTests" class="method navigator-link" hash-for-method="canCreateABinWithEmptyValue">canCreateABinWithEmptyValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.AddBinsTests" class="method navigator-link" hash-for-method="canCreateABinWithNullValue">canCreateABinWithNullValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.AddBinsTests" class="method navigator-link" hash-for-method="canCreateABinWithValidValue">canCreateABinWithValidValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.DeleteBinTests" class="method navigator-link" hash-for-method="canDeleteABinById">canDeleteABinById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.ReadBinTests" class="method navigator-link" hash-for-method="canReadABinById">canReadABinById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.AddBinsTests" class="method navigator-link" hash-for-method="cannotCreateBinWithBlankBody">cannotCreateBinWithBlankBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.DeleteBinTests" class="method navigator-link" hash-for-method="cannotDeleteABinByWrongId">cannotDeleteABinByWrongId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.DeleteBinTests" class="method navigator-link" hash-for-method="cannotDeleteBinWithNullId">cannotDeleteBinWithNullId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.DeleteBinTests" class="method navigator-link" hash-for-method="cannotDeleteBinWithoutId">cannotDeleteBinWithoutId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.ReadBinTests" class="method navigator-link" hash-for-method="cannotRetrieveBinByNullId">cannotRetrieveBinByNullId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.ReadBinTests" class="method navigator-link" hash-for-method="cannotRetrieveBinByWrongId">cannotRetrieveBinByWrongId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Bin_Regression" title="tests.ReadBinTests" class="method navigator-link" hash-for-method="cannotRetrieveBinNoId">cannotRetrieveBinNoId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Bin_Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Bin_Regression" class="panel Bin_Regression">
+          <div class="suite-Bin_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DeleteBinTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="canDeleteABinById">
+                  </a> <!-- canDeleteABinById -->
+                  <span class="method-name">canDeleteABinById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotDeleteABinByWrongId">
+                  </a> <!-- cannotDeleteABinByWrongId -->
+                  <span class="method-name">cannotDeleteABinByWrongId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotDeleteBinWithNullId">
+                  </a> <!-- cannotDeleteBinWithNullId -->
+                  <span class="method-name">cannotDeleteBinWithNullId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotDeleteBinWithoutId">
+                  </a> <!-- cannotDeleteBinWithoutId -->
+                  <span class="method-name">cannotDeleteBinWithoutId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bin_Regression-class-passed -->
+          <div class="suite-Bin_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ReadBinTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="canReadABinById">
+                  </a> <!-- canReadABinById -->
+                  <span class="method-name">canReadABinById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotRetrieveBinByNullId">
+                  </a> <!-- cannotRetrieveBinByNullId -->
+                  <span class="method-name">cannotRetrieveBinByNullId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotRetrieveBinByWrongId">
+                  </a> <!-- cannotRetrieveBinByWrongId -->
+                  <span class="method-name">cannotRetrieveBinByWrongId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotRetrieveBinNoId">
+                  </a> <!-- cannotRetrieveBinNoId -->
+                  <span class="method-name">cannotRetrieveBinNoId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bin_Regression-class-passed -->
+          <div class="suite-Bin_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddBinsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="canCreateABinWith1000Characters">
+                  </a> <!-- canCreateABinWith1000Characters -->
+                  <span class="method-name">canCreateABinWith1000Characters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="canCreateABinWithEmptyValue">
+                  </a> <!-- canCreateABinWithEmptyValue -->
+                  <span class="method-name">canCreateABinWithEmptyValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="canCreateABinWithNullValue">
+                  </a> <!-- canCreateABinWithNullValue -->
+                  <span class="method-name">canCreateABinWithNullValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="canCreateABinWithValidValue">
+                  </a> <!-- canCreateABinWithValidValue -->
+                  <span class="method-name">canCreateABinWithValidValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotCreateBinWithBlankBody">
+                  </a> <!-- cannotCreateBinWithBlankBody -->
+                  <span class="method-name">cannotCreateBinWithBlankBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bin_Regression-class-passed -->
+        </div> <!-- panel Bin_Regression -->
+        <div panel-name="test-xml-Bin_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/calvincustodio/IdeaProjects/JsonBin/src/test/java/suites/binRegressionTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Bin Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Bin Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AddBinsTests&quot;/&gt;
+      &lt;class name=&quot;tests.DeleteBinTests&quot;/&gt;
+      &lt;class name=&quot;tests.ReadBinTests&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateBinTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Bin Tests --&gt;
+&lt;/suite&gt; &lt;!-- Bin Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Bin_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Bin Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Bin Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Bin_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Bin Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Bin_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Bin Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Bin_Regression');
+function tableData_Bin_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'canCreateABinWith1000Characters')
+data.setCell(0, 2, 'tests.AddBinsTests')
+data.setCell(0, 3, 2011);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'cannotCreateBinWithBlankBody')
+data.setCell(1, 2, 'tests.AddBinsTests')
+data.setCell(1, 3, 915);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'cannotDeleteBinWithoutId')
+data.setCell(2, 2, 'tests.DeleteBinTests')
+data.setCell(2, 3, 880);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'canCreateABinWithValidValue')
+data.setCell(3, 2, 'tests.AddBinsTests')
+data.setCell(3, 3, 646);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'canCreateABinWithNullValue')
+data.setCell(4, 2, 'tests.AddBinsTests')
+data.setCell(4, 3, 634);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'canDeleteABinById')
+data.setCell(5, 2, 'tests.DeleteBinTests')
+data.setCell(5, 3, 622);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'cannotRetrieveBinByNullId')
+data.setCell(6, 2, 'tests.ReadBinTests')
+data.setCell(6, 3, 617);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'canReadABinById')
+data.setCell(7, 2, 'tests.ReadBinTests')
+data.setCell(7, 3, 613);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'canCreateABinWithEmptyValue')
+data.setCell(8, 2, 'tests.AddBinsTests')
+data.setCell(8, 3, 604);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'cannotDeleteABinByWrongId')
+data.setCell(9, 2, 'tests.DeleteBinTests')
+data.setCell(9, 3, 597);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'cannotRetrieveBinByWrongId')
+data.setCell(10, 2, 'tests.ReadBinTests')
+data.setCell(10, 3, 594);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'cannotDeleteBinWithNullId')
+data.setCell(11, 2, 'tests.DeleteBinTests')
+data.setCell(11, 3, 586);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'cannotRetrieveBinNoId')
+data.setCell(12, 2, 'tests.ReadBinTests')
+data.setCell(12, 3, 413);
+window.suiteTableData['Bin_Regression']= { tableData: data, tableDiv: 'times-div-Bin_Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Bin_Regression">
+              </div> <!-- times-div-Bin_Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Bin_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Bin Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Bin_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Bin_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddBinsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">canCreateABinWith1000Characters</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">canCreateABinWithEmptyValue</span>
+                <span class="method-start">2012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">canCreateABinWithNullValue</span>
+                <span class="method-start">2617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">canCreateABinWithValidValue</span>
+                <span class="method-start">3252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cannotCreateBinWithBlankBody</span>
+                <span class="method-start">3898 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DeleteBinTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">canDeleteABinById</span>
+                <span class="method-start">6109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cannotDeleteABinByWrongId</span>
+                <span class="method-start">7756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cannotDeleteBinWithNullId</span>
+                <span class="method-start">9596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cannotDeleteBinWithoutId</span>
+                <span class="method-start">11546 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReadBinTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">canReadABinById</span>
+                <span class="method-start">13080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">13694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cannotRetrieveBinByNullId</span>
+                <span class="method-start">14309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">14926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cannotRetrieveBinByWrongId</span>
+                <span class="method-start">15640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">16235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cannotRetrieveBinNoId</span>
+                <span class="method-start">16868 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

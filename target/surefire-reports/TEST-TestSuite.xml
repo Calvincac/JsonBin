@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="17.567" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/calvincustodio/IdeaProjects/JsonBin/target/test-classes:/Users/calvincustodio/IdeaProjects/JsonBin/target/classes:/Users/calvincustodio/.m2/repository/io/rest-assured/rest-assured/4.3.2/rest-assured-4.3.2.jar:/Users/calvincustodio/.m2/repository/org/codehaus/groovy/groovy/3.0.6/groovy-3.0.6.jar:/Users/calvincustodio/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.6/groovy-xml-3.0.6.jar:/Users/calvincustodio/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/calvincustodio/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/calvincustodio/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/calvincustodio/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/calvincustodio/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/calvincustodio/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/calvincustodio/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/calvincustodio/.m2/repository/io/rest-assured/json-path/4.3.2/json-path-4.3.2.jar:/Users/calvincustodio/.m2/repository/org/codehaus/groovy/groovy-json/3.0.6/groovy-json-3.0.6.jar:/Users/calvincustodio/.m2/repository/io/rest-assured/rest-assured-common/4.3.2/rest-assured-common-4.3.2.jar:/Users/calvincustodio/.m2/repository/io/rest-assured/xml-path/4.3.2/xml-path-4.3.2.jar:/Users/calvincustodio/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/calvincustodio/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/calvincustodio/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/calvincustodio/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/calvincustodio/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/calvincustodio/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/calvincustodio/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/calvincustodio/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/calvincustodio/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/calvincustodio/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/calvincustodio/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/calvincustodio/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/calvincustodio/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/calvincustodio/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/calvincustodio/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/calvincustodio/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/calvincustodio/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/calvincustodio/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/calvincustodio/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/calvincustodio/.m2/repository/org/json/json/20151123/json-20151123.jar:/Users/calvincustodio/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/calvincustodio/.m2/repository/org/aeonbits/owner/owner/1.0.8/owner-1.0.8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/calvincustodio/IdeaProjects/JsonBin/target/surefire/surefirebooter5946206283656338483.jar /Users/calvincustodio/IdeaProjects/JsonBin/target/surefire 2021-04-25T10-30-11_010-jvmRun1 surefire3237668075109863663tmp surefire_02301294861937934013tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/calvincustodio/IdeaProjects/JsonBin/target/test-classes:/Users/calvincustodio/IdeaProjects/JsonBin/target/classes:/Users/calvincustodio/.m2/repository/io/rest-assured/rest-assured/4.3.2/rest-assured-4.3.2.jar:/Users/calvincustodio/.m2/repository/org/codehaus/groovy/groovy/3.0.6/groovy-3.0.6.jar:/Users/calvincustodio/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.6/groovy-xml-3.0.6.jar:/Users/calvincustodio/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/calvincustodio/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/calvincustodio/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/calvincustodio/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/calvincustodio/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/calvincustodio/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/calvincustodio/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/calvincustodio/.m2/repository/io/rest-assured/json-path/4.3.2/json-path-4.3.2.jar:/Users/calvincustodio/.m2/repository/org/codehaus/groovy/groovy-json/3.0.6/groovy-json-3.0.6.jar:/Users/calvincustodio/.m2/repository/io/rest-assured/rest-assured-common/4.3.2/rest-assured-common-4.3.2.jar:/Users/calvincustodio/.m2/repository/io/rest-assured/xml-path/4.3.2/xml-path-4.3.2.jar:/Users/calvincustodio/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/calvincustodio/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/calvincustodio/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/calvincustodio/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/calvincustodio/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/calvincustodio/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/calvincustodio/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/calvincustodio/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/calvincustodio/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/calvincustodio/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/calvincustodio/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/calvincustodio/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/calvincustodio/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/calvincustodio/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/calvincustodio/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/calvincustodio/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/calvincustodio/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/calvincustodio/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/calvincustodio/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/calvincustodio/.m2/repository/org/json/json/20151123/json-20151123.jar:/Users/calvincustodio/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/calvincustodio/.m2/repository/org/aeonbits/owner/owner/1.0.8/owner-1.0.8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/calvincustodio"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/calvincustodio/IdeaProjects/JsonBin"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/calvincustodio/IdeaProjects/JsonBin/target/surefire/surefirebooter5946206283656338483.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16+14"/>
+    <property name="user.name" value="calvincustodio"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.2.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/calvincustodio/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/nw/05842kn16dd86dkjn3vdjpqr0000gn/T/"/>
+    <property name="java.version" value="16"/>
+    <property name="user.dir" value="/Users/calvincustodio/IdeaProjects/JsonBin"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/calvincustodio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="16+14"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="canCreateABinWith1000Characters" classname="tests.AddBinsTests" time="2.043">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "n92pcn0wyqb9z41e8jy98qixt6hh8xmw3dvse83qcv46swowoj7uppwmd4hsmblykd24jiw2zyth519hfo1ifn47d6kkj090qynx7g1ocbdeal8us9zum74fz23wt68vgu8g2v8520dqvi51wzvdian8iextd0gwiwbt8rk3mr9xfksf6sycz8d9o1oec589hlknp4pvjj42816xmbbq9pee5vpwcqob8vhioan5plbh5jq115wgv8jvthzepj9z0x4b7or6pvuw183lvkm93yizdlf9t7lz0ftagzbwmbd4t6wbi6gmr7p0lu5xzja542pex7tct53v5hq1k2vjwvn9sxkx70ijxpogowkbxb41yzyxptfzm6cyywh58njvyc2jyhsfqbux2y854ub6ibwjwe0msrkwwre4z3hqt03gpn9jpl0lq3vwhfksxf2tuzdufuoa1nvhpe01tmykvayhlgme4mvwo7vmyej1ryc9xrt23edqcsva1ra02pk83bzrofsxq3cwptk6zocz7w0fkm3rp8y8esiyx8qwa63k8dd0ykjhj788vtyv6qwyyp3f8qpxg5b0kbhu4e0xvmfytjnjdlq1eifx7htbfa2qvjqnnrd11m1n2shodfshrj60cpi8ggouq8enqu6xz2rw7gxdol26vpk9wi1b67vx104uq7pxyo71s3znlut31v8cs380q0gbxtcohrgbb1vv3iap7wbemtroq15efui3n0q43dfy0h2cesbg4peuscc9vo77d5v2q4esy5ccm8s9dxq8qi5rvew5z3q6pusrpftz5k09tqhbjyiwenspqt39a8732r1ag3yh1oym4mho8yg4s00s5x03z1s64uxla1sn47sypdxdp53lgg78xk0zsfvjs7x1hxlzyhvarj87d84jmsn2lw3cceumu485zmlyhgbe54xgdavhqcy0t5lzm5nzo7crameosafxdnyu3rofok67eh903lpy"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:13 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db9518ea50827eb45d0ec03f0183ac8d11619339413; expires=Tue, 25-May-21 08:30:13 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"463-P4zggW5T4rKa2jxSuu0CdsN2X40"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bf9e2a0000fa78d8260000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=agMGKHfX5zV9mtXn4pXPdnXdO3N4SRcpaOF3R0Te3SS40m3abkeopuL3SaBwpMQ%2Fca0ZLLdfDkTNcgs%2Fx1I68iryw%2B99NxbnjNEiScQnVw%3D%3D"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 645635437c27fa78-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "n92pcn0wyqb9z41e8jy98qixt6hh8xmw3dvse83qcv46swowoj7uppwmd4hsmblykd24jiw2zyth519hfo1ifn47d6kkj090qynx7g1ocbdeal8us9zum74fz23wt68vgu8g2v8520dqvi51wzvdian8iextd0gwiwbt8rk3mr9xfksf6sycz8d9o1oec589hlknp4pvjj42816xmbbq9pee5vpwcqob8vhioan5plbh5jq115wgv8jvthzepj9z0x4b7or6pvuw183lvkm93yizdlf9t7lz0ftagzbwmbd4t6wbi6gmr7p0lu5xzja542pex7tct53v5hq1k2vjwvn9sxkx70ijxpogowkbxb41yzyxptfzm6cyywh58njvyc2jyhsfqbux2y854ub6ibwjwe0msrkwwre4z3hqt03gpn9jpl0lq3vwhfksxf2tuzdufuoa1nvhpe01tmykvayhlgme4mvwo7vmyej1ryc9xrt23edqcsva1ra02pk83bzrofsxq3cwptk6zocz7w0fkm3rp8y8esiyx8qwa63k8dd0ykjhj788vtyv6qwyyp3f8qpxg5b0kbhu4e0xvmfytjnjdlq1eifx7htbfa2qvjqnnrd11m1n2shodfshrj60cpi8ggouq8enqu6xz2rw7gxdol26vpk9wi1b67vx104uq7pxyo71s3znlut31v8cs380q0gbxtcohrgbb1vv3iap7wbemtroq15efui3n0q43dfy0h2cesbg4peuscc9vo77d5v2q4esy5ccm8s9dxq8qi5rvew5z3q6pusrpftz5k09tqhbjyiwenspqt39a8732r1ag3yh1oym4mho8yg4s00s5x03z1s64uxla1sn47sypdxdp53lgg78xk0zsfvjs7x1hxlzyhvarj87d84jmsn2lw3cceumu485zmlyhgbe54xgdavhqcy0t5lzm5nzo7crameosafxdnyu3rofok67eh903lpy"
+    },
+    "metadata": {
+        "id": "60852895f6655022c46b4cec",
+        "createdAt": "2021-04-25T08:30:13.482Z",
+        "private": true
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="canCreateABinWithEmptyValue" classname="tests.AddBinsTests" time="0.576">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": ""
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db1ea23e104763415bcd89a0fc28e9c501619339413; expires=Tue, 25-May-21 08:30:13 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"7b-i/LkeiDFAUjHgQOswBIZU+LlJgg"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfa0fb00001fea1c91d000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=1LjgfbrHv4vFWdNrgJPEdVY5ePGyYQ1fVVTGIWZ8cMxnOUGyLUgDukFNowVWGpTRvxUYYSohzfrdkB9r7Yt%2Bk8YVmTSxC5TZuITqYfy9vA%3D%3D"}],"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 64563547ffa31fea-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": ""
+    },
+    "metadata": {
+        "id": "60852896c7df3422f7fd2af6",
+        "createdAt": "2021-04-25T08:30:14.192Z",
+        "private": true
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="canCreateABinWithNullValue" classname="tests.AddBinsTests" time="0.638">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": null
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d552546241495d507cfa916b403835a0f1619339414; expires=Tue, 25-May-21 08:30:14 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"7d-SZFHmwHA8zAIWssaG8R1mXUJdYI"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfa35200004c551923b000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=jegQV8SJo3DRXwCMrC3zj1%2F5FBj2d6kMtUHJHqDqrycHuOS8iHNGkA6eaXAKfS4Aq6QdrOIiCYnzH6y%2F3Hl7U36CSMU7GinG9mSiwke%2Fbg%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6456354bbaaa4c55-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": null
+    },
+    "metadata": {
+        "id": "608528965210f622be3939f5",
+        "createdAt": "2021-04-25T08:30:14.793Z",
+        "private": true
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="canCreateABinWithValidValue" classname="tests.AddBinsTests" time="0.642">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Luke Adam Go"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:15 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db444016fba0db7bd99d9badd785814b41619339415; expires=Tue, 25-May-21 08:30:15 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"87-gA92DxE3jCumN65qCcUuvWSBNwU"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfa5f200000b5f031e4000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=JqmPFdBZeaqOgFjFUi19FHY%2FIjTabgXjIMHfOCGn5hUkjOLGYZgfnDn%2FfnMMLzrajdjF2byEEPPxe1%2FeR%2FCt9zKAo2XBROYJhbxwXJSN3A%3D%3D"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6456354fe8c20b5f-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Luke Adam Go"
+    },
+    "metadata": {
+        "id": "60852897c7df3422f7fd2af8",
+        "createdAt": "2021-04-25T08:30:15.469Z",
+        "private": true
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="cannotCreateBinWithBlankBody" classname="tests.AddBinsTests" time="0.915">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+HTTP/1.1 400 Bad Request
+Date: Sun, 25 Apr 2021 08:30:16 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 33
+Connection: keep-alive
+Set-Cookie: __cfduid=daaa4968a4be1ecde8afff49164ea16bb1619339415; expires=Tue, 25-May-21 08:30:15 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"21-Wxx0DQJx+/HoU/nzLij8or+1YGM"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfa8590000c82b7a1c9000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=JySbtiIl4ftF1VtXHhUL3DqaDgEnbnAoYLPyWwFKSI9KyORQPgSpe0cgy2eYXG9qzDNIyT%2FhL2a2iaV%2FNzDEJ2QuAtsG%2BSKGKAITDtSn3Q%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 64563553ca15c82b-AMS
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "message": "Bin cannot be blank"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="canDeleteABinById" classname="tests.DeleteBinTests" time="0.611">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Ethel L. Cahall"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:17 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d37c7acff0f6d9a60b33d582a5faa2ebc1619339416; expires=Tue, 25-May-21 08:30:16 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"8a-MArhFwJHB0dqfokm9EwR8Xh9DcQ"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfabf20000bf5a4f8d0000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=8kTZqvosVIS%2Fns0obLAldAY1aWXurto9DyFguwSibhZtUf7U7Nc9ZoeQpXaps%2Bqd%2FwN4grwN1Ijp1L8OJNFam8Upfds6tka3YysRO4ipSQ%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 645635598a27bf5a-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Ethel L. Cahall"
+    },
+    "metadata": {
+        "id": "60852899f6655022c46b4cef",
+        "createdAt": "2021-04-25T08:30:17.001Z",
+        "private": true
+    }
+}
+Request method:	GET
+Request URI:	https://api.jsonbin.io/v3/b/60852899f6655022c46b4cef
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:17 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=df73cf3bb50099993b13dac7f86b615741619339417; expires=Tue, 25-May-21 08:30:17 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"63-yxgpODEuU4Xo5JuCFipsrAi9rSk"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfae9d00000c29bc89d000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=432m4vlmWCC%2BjQe1vNFMx9%2FnYiyW72nyY%2F6byryAvH%2BI1RyHh9wi9cBhOeEAvOEg%2F0N0iGbDmRIfNAaO39409DblYNfqBFAm7xaxC0aYkw%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6456355dcea70c29-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Ethel L. Cahall"
+    },
+    "metadata": {
+        "id": "60852899f6655022c46b4cef",
+        "private": true
+    }
+}
+Request method:	DELETE
+Request URI:	https://api.jsonbin.io/v3/b/60852899f6655022c46b4cef
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:18 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d833f16bdc931b8cf36d2a1bea9fc4f961619339417; expires=Tue, 25-May-21 08:30:17 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"67-iSxxA9NNyXatVPBam0S+eLrJPCQ"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfb0f100000b4fd084f000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=HGXbceLBdf%2Fn3DUXlWn%2FXooQl54o%2FQm%2FQoabUqbSglI3hqgDBjDObqeviVTIc6LY19GcbiEB9CWZpmVRKFWVvYCA8TwTzFL0NbZ9Jiah7g%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6456356188600b4f-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "metadata": {
+        "id": "60852899f6655022c46b4cef",
+        "versionsDeleted": 0
+    },
+    "message": "Bin deleted successfully"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="cannotDeleteABinByWrongId" classname="tests.DeleteBinTests" time="0.578">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Jed Dye"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:18 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d753ae34a3c6ea6a6954bb685efd25f581619339418; expires=Tue, 25-May-21 08:30:18 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"82-D0AS26Qs9W8Ld+289K//QWVChzw"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfb3640000203fe0085000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=RgFVzqLFN6VevpMr465Y0wwjiA9aHbs%2FTsSJBAdm1ubxsT60W%2FiwwHL6JmIHZlupBdyIyFrxm6obyrZAx%2BIGCHVCcxGWt08RNs34Pti3uw%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 645635656e0f203f-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Jed Dye"
+    },
+    "metadata": {
+        "id": "6085289af6655022c46b4cf2",
+        "createdAt": "2021-04-25T08:30:18.904Z",
+        "private": true
+    }
+}
+Request method:	GET
+Request URI:	https://api.jsonbin.io/v3/b/6085289af6655022c46b4cf2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:19 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d654047034ae2a8dadfb3f408578a5f131619339419; expires=Tue, 25-May-21 08:30:19 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"5b-p8Z3rWePZHpt67mjk1gu6Hq40rM"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfb5b200004c4fb1051000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2BehdLxUeTjim1otFNbtiS6UmIDht6qu46rFLZilqmhkmvgPleB8xlY4j6Re6smNoS8gyVcIRE1biPKyRqHgrANoAoYnViIK3LcpbRyJzfw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 645635691cd04c4f-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Jed Dye"
+    },
+    "metadata": {
+        "id": "6085289af6655022c46b4cf2",
+        "private": true
+    }
+}
+Request method:	DELETE
+Request URI:	https://api.jsonbin.io/v3/b/000-01-9780
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 25 Apr 2021 08:30:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+Connection: keep-alive
+Set-Cookie: __cfduid=d8fb16e59879eda8895f4767895ba0d771619339419; expires=Tue, 25-May-21 08:30:19 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"1f-TiY20F1JzT2yb94mCPJwgAEw+fk"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfb76200004c924003e000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=yTIMlJOXi36RefoXJMngPxCnbx6miit8XFtJS%2FHNpe6In3Xow%2FA9qBNNrjnNPXA4bTx8RkWCGb93Sx%2FNFOUiBlUt9QCQvKh2FpY9zJVPRQ%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6456356bc8584c92-AMS
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "message": "Invalid Record ID"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="cannotDeleteBinWithNullId" classname="tests.DeleteBinTests" time="0.58">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Hilda Climb"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dfff5957d254ac50e17b19fb6738fd4851619339420; expires=Tue, 25-May-21 08:30:20 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"86-d0OUe/3nurgQio3VDCeiopKE/Oc"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfb9b30000d8c56d381000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2BSjy%2Fus7a43mqahoaWK4ElrmUAyU9d3k4OIVOkqKZcnj2Uilm3tZ3s0u0CpxjjjiNYSWsz39%2BeAJ%2BzyAJfNLsHk2m4ToNykQDG%2BOu7ztVw%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6456356f89fed8c5-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Hilda Climb"
+    },
+    "metadata": {
+        "id": "6085289cf6655022c46b4cf5",
+        "createdAt": "2021-04-25T08:30:20.527Z",
+        "private": true
+    }
+}
+Request method:	GET
+Request URI:	https://api.jsonbin.io/v3/b/6085289cf6655022c46b4cf5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:21 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=df329d26ed1d2c345602e51d8387fac3d1619339420; expires=Tue, 25-May-21 08:30:20 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"5f-nTLXS1TtrvM5DwpxMeT2O59uFZM"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfbc0700004bdd6b0b5000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=al9hsOvfytOedxI9VWlfWKoA4FZDd82hzcwrq8ylFOtILvdfXXZrE77%2FNAd%2FmTmtsMB0FbIpKQ2e7POa%2FM4X%2FZCW1YOv%2BhVz0QOO5LWniQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 645635733ae14bdd-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Hilda Climb"
+    },
+    "metadata": {
+        "id": "6085289cf6655022c46b4cf5",
+        "private": true
+    }
+}
+Request method:	DELETE
+Request URI:	https://api.jsonbin.io/v3/b/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 25 Apr 2021 08:30:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+Connection: keep-alive
+Set-Cookie: __cfduid=dab218c237578a72ae493ba13211a9ba61619339421; expires=Tue, 25-May-21 08:30:21 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"1f-TiY20F1JzT2yb94mCPJwgAEw+fk"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfbe8a00004c19ce99c000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=QgYs2ZWvnuhzUjVOxcFXtrIFiLjRem5Nl5P1JpEfW4e5oFHK36O3U5K5Gy6OEELd93kM2vdfTmAGzkA0zJ%2F7FnhniUnDLnfDJSuya7N2gw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 645635774bf34c19-AMS
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "message": "Invalid Record ID"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="cannotDeleteBinWithoutId" classname="tests.DeleteBinTests" time="0.872">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Jaqueline Hyde"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:22 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d3a539952eeb7322e3599bb6c1a44e9161619339421; expires=Tue, 25-May-21 08:30:21 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"89-5d9DWSoKRH7AnTmIruXz/sJfz40"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfc0d600004bef0cb73000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=oFuoZ%2Fa7Q%2B8OisUmr%2BLscQ2Cot1Hg6CCws1BrpRyPjQ0aXIJiFqBSRWRTEG2KiL13KSFm4Ik2DDooXv2mIiSbqy09gvvD5u%2F2%2FAS4yXp%2FA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6456357af9c34bef-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Jaqueline Hyde"
+    },
+    "metadata": {
+        "id": "6085289ec7df3422f7fd2aff",
+        "createdAt": "2021-04-25T08:30:22.355Z",
+        "private": true
+    }
+}
+Request method:	GET
+Request URI:	https://api.jsonbin.io/v3/b/6085289ec7df3422f7fd2aff
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:23 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=df8300bfd038220452124095b202a9bf91619339422; expires=Tue, 25-May-21 08:30:22 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"62-aRQ++4j8vrUORRjEGciUfW66e8A"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfc36800009cf491b7c000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=SreFx%2F7d8udW3qlarb8XwDfaUCfxgqd7mbgHz2ENd7XXGS4mUHYTuc0Ps6SA%2BgVRNFiTcxT3%2Buhcc0Z4l3zzahFO4z%2B4%2Bsh0S5wW4Tojkw%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6456357f0aef9cf4-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Jaqueline Hyde"
+    },
+    "metadata": {
+        "id": "6085289ec7df3422f7fd2aff",
+        "private": true
+    }
+}
+Request method:	DELETE
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Sun, 25 Apr 2021 08:30:23 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d6e5b356f8ed924920b88a490dc8d2f291619339423; expires=Tue, 25-May-21 08:30:23 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfc62700000b88853ca000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=tJUrzYHFaE1ZLd7PXsedqWFblvGUaX5CQi2aW7yaOwZbjNnagwLztw%2FHtfbrbUWQ8M%2BLpnlE20hp8ZxmsOPIk%2FFAK3DX%2B6VKKxx4okIb6w%3D%3D"}],"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 645635837e940b88-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot DELETE /v3/b/</pre>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="canReadABinById" classname="tests.ReadBinTests" time="0.612">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Trina Woods"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:24 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d09184e0d8f59ab982c2d27cd6eca21e61619339424; expires=Tue, 25-May-21 08:30:24 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"86-44j55mvAYPkW6oO5QVeVvLMJju4"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfc99700000c6988a00000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=kI8NoSfRbmY3g14JyhPMmwIYgjM25QFGb8eRP18%2B7ZIJpQeLTbZtS1iBReh5lQu%2BMJdE2nnz6biYKGSvmNRtGVvK%2F6WVySW8%2BlRw82GNaA%3D%3D"}],"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 64563588f9f80c69-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Trina Woods"
+    },
+    "metadata": {
+        "id": "608528a0f6655022c46b4cf8",
+        "createdAt": "2021-04-25T08:30:24.587Z",
+        "private": true
+    }
+}
+Request method:	GET
+Request URI:	https://api.jsonbin.io/v3/b/608528a0f6655022c46b4cf8
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d06aa39a048eaad5601ba8f34d5abe3ea1619339424; expires=Tue, 25-May-21 08:30:24 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"5f-z6G6PbsXBOJ2UWOe5w3iOLH2Ph8"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfcc2600004c2c5c121000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3PNtjH3CHCgZuLIgGCSI0W7ihkPJD75aGy3Vy7jBM%2FWyq75gJjzRNXQb0%2B9ziJLpWn2Cr0Fs7IJy3H5eNvbsK%2B%2Bafi5E8Bk73G5ggiN0Eg%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6456358d0af14c2c-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Trina Woods"
+    },
+    "metadata": {
+        "id": "608528a0f6655022c46b4cf8",
+        "private": true
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="cannotRetrieveBinByNullId" classname="tests.ReadBinTests" time="0.617">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Rip Torn"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d2b333097c1bbfb350287f31e3987790f1619339425; expires=Tue, 25-May-21 08:30:25 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"83-LWhz+NIxN2AHRxkjjlV6XY8SUfE"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfce8f0000c78511327000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ycanYrW3vYte36rnqG2OvAmldWwIOwzPV9sw6VllTelUYzMF3znK5wm%2FcBeDhYRNFBuJxJ43ycIxm%2BbdzE8SiqjOoIsK5zTEHzUcoebY7g%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 64563590eaf6c785-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Rip Torn"
+    },
+    "metadata": {
+        "id": "608528a1f6655022c46b4cfb",
+        "createdAt": "2021-04-25T08:30:25.862Z",
+        "private": true
+    }
+}
+Request method:	GET
+Request URI:	https://api.jsonbin.io/v3/b/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 25 Apr 2021 08:30:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+Connection: keep-alive
+Set-Cookie: __cfduid=dd53bd0c2ecb08edfdc8e8ecdc4c1cb061619339426; expires=Tue, 25-May-21 08:30:26 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"1f-TiY20F1JzT2yb94mCPJwgAEw+fk"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfd0fc0000c8674d0c2000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=NSsJrcPD5jNvA%2FLSI5IhIBO1xyLkBz5%2BUBoXQfjXVEtq%2BX5GX1M%2FwjjhGcz3MEPuXZMxxaC%2BlQjenS%2FtVGFjVlJyUgyb9W8tsV0EO%2Bpq9A%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 64563594cb98c867-AMS
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "message": "Invalid Record ID"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="cannotRetrieveBinByWrongId" classname="tests.ReadBinTests" time="0.595">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Kristie Hannity"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=df71ab078364396548fb5fff492187c701619339426; expires=Tue, 25-May-21 08:30:26 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"8a-aVJU5gQBpfW/gRd1o/cdrSWN61M"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfd36f00001ed2d79e3000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3uFXK9O%2B3Wjor7dErj2zCd%2Bbo41OcnLMLQpL39aEzyKkefQhR0jxFf4NTP3GZCy1m00GcFWA8%2BKvJfiVXqW58Y78czfaMX1rb4H9Y4tN5w%3D%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 64563598bbce1ed2-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Kristie Hannity"
+    },
+    "metadata": {
+        "id": "608528a35210f622be3939fd",
+        "createdAt": "2021-04-25T08:30:27.109Z",
+        "private": true
+    }
+}
+Request method:	GET
+Request URI:	https://api.jsonbin.io/v3/b/000-21-6205
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 25 Apr 2021 08:30:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+Connection: keep-alive
+Set-Cookie: __cfduid=d4d5261cfbfbc1bac2ed10548ae0e6d2b1619339427; expires=Tue, 25-May-21 08:30:27 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"1f-TiY20F1JzT2yb94mCPJwgAEw+fk"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfd62f00000b573ebbb000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=x3SlmtHpfL5z1MquKS%2F7AmVLZ0Rk5x7k326nZhnXyPQcKHUYPmg5ojPzYZTSrriX7Qp%2FKfwpTh3gKNAp%2BJuAdRN8jAhLyDz8IXPmIqOPdw%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6456359d1e610b57-AMS
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "message": "Invalid Record ID"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="cannotRetrieveBinNoId" classname="tests.ReadBinTests" time="0.418">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sample": "Pearl E White"
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Apr 2021 08:30:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d6e2ab0db988a718f63e462e5f13907031619339427; expires=Tue, 25-May-21 08:30:27 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"88-zonrEE82zv2EGX1RcGnKBHaD71I"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfd87800001e710a23f000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=VLBX6DkaEOb9ibV%2F7ZddEFXy3BW3DxisTIeYQPyALo4N3AGLkAo%2B1ikw07nyfYUf0zILA2IoQImNgihz82OXpUBAFKWFp2Be73ty6xws%2Fg%3D%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 645635a0bcac1e71-AMS
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "record": {
+        "sample": "Pearl E White"
+    },
+    "metadata": {
+        "id": "608528a4c7df3422f7fd2b04",
+        "createdAt": "2021-04-25T08:30:28.393Z",
+        "private": true
+    }
+}
+Request method:	GET
+Request URI:	https://api.jsonbin.io/v3/b/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Master-Key=$2b$10$TFoPYINM5OJba5Pt2UzrYeKYxuS92j1tfi/QJyOfzEOc7Q1MBbWsa
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Sun, 25 Apr 2021 08:30:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 30
+Connection: keep-alive
+Set-Cookie: __cfduid=d26891c3461452b6aab4ff6c100de7e9c1619339428; expires=Tue, 25-May-21 08:30:28 GMT; path=/; domain=.jsonbin.io; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"1e-pRea4areWugqIdtRpMrV4pMt0U8"
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09a9bfdaf30000fa58d719c000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Y7AIyZyb0nj3BXBi2LmUNlzyy2mGna8e%2BZYyT2Lo29y5oPdbw4AxTgs0QFGH0u0dXZD6uj59%2FpW7iOpcoFS7fBNI%2B0l6%2FpLyLXHGI4mMbw%3D%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 645635a4ba9ffa58-AMS
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "message": "Route not found!"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
