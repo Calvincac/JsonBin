@@ -99,4 +99,36 @@ public class BinClient extends BaseClient {
                 .extract()
                 .response();
     }
+
+    public Bin updateABin(Object bin, String binId) {
+        return  given()
+                .spec(utils.requestSpecification())
+                .body(bin)
+                .when()
+                .log()
+                .all()
+                .put(BinResources.CRUD_RESOURCE.getResource() + binId)
+                .then()
+                .log()
+                .all()
+                .statusCode(200)
+                .extract()
+                .as(Bin.class);
+    }
+
+    public Response updateABinError(Object bin, String binId, int status) {
+        return  given()
+                .spec(utils.requestSpecification())
+                .body(bin)
+                .when()
+                .log()
+                .all()
+                .put(BinResources.CRUD_RESOURCE.getResource() + binId)
+                .then()
+                .log()
+                .all()
+                .statusCode(status)
+                .extract()
+                .response();
+    }
 }

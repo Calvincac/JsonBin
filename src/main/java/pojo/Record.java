@@ -8,6 +8,5 @@ import lombok.ToString;
 @Setter
 @ToString
 public class Record {
-
     private String sample;
 }

@@ -8,7 +8,6 @@ import lombok.ToString;
 @Setter
 @ToString
 public class Bin {
-
     private Record record;
     private Metadata metadata;
     private String message;

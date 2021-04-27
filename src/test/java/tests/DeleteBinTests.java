@@ -1,6 +1,7 @@
 package tests;
 
 import asserters.BinAsserters;
+import data.BinTestData;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -34,7 +35,7 @@ public class DeleteBinTests extends BaseTest {
     @Test
     public void cannotDeleteABinByWrongId() {
         Response response = binClient.deleteBinByIdError(faker.idNumber().invalid(), 422);
-        assertThat(getJsonPath(response, "message"), equalTo("Invalid Record ID"));
+        assertThat(getJsonPath(response, "message"), equalTo(BinTestData.INVALID_RECORD_ID_ERROR.toString()));
     }
 
     @Test
@@ -45,6 +46,6 @@ public class DeleteBinTests extends BaseTest {
     @Test
     public void cannotDeleteBinWithNullId() {
         Response response = binClient.deleteBinByIdError(null, 422);
-        assertThat(getJsonPath(response, "message"), equalTo("Invalid Record ID"));
+        assertThat(getJsonPath(response, "message"), equalTo(BinTestData.INVALID_RECORD_ID_ERROR.toString()));
     }
 }
