@@ -25,9 +25,9 @@ To run this project, you must place your API key on the config file `src/test/ja
 
 If you run the command below, you will run all the tests in the project
 
-``
-mvn clean install
-``
+```
+mvn clean test
+```
 You can also run all the tests by running the test suite `src/test/java/configuration/global.properties`
 
 ### Additional Information
