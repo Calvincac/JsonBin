@@ -32,5 +32,5 @@ You can also run all the tests by running the test suite `src/test/java/configur
 
 ### Additional Information
 I've also added the project to GitLab, and the project is running on a pipeline. <br />
-If I had more time, I would also add allure reports for reporting.
+If I had more time, I would also add allure reports for reporting and Cucumber.
 
