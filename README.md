@@ -28,7 +28,7 @@ If you run the command below, you will run all the tests in the project
 ```
 mvn clean test
 ```
-You can also run all the tests by running the test suite `src/test/java/configuration/global.properties`
+You can also run all the tests by running the test suite `src/test/java/suites/binRegressionTests.xml`
 
 ### Additional Information
 I've also added the project to GitLab, and the project is running on a pipeline. <br />
